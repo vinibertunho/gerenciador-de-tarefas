@@ -54,7 +54,7 @@ let tarefasExtraidas = tarefas.slice(2, 5);
 console.log(tarefasExtraidas);
 // Saída esperada: ['Lavar a louça', 'Comprar mercado', 'Ir à academia']
 
-//removendo atarefa e adiconando outra tarefa
+//removendo a tarefa e adiconando outra tarefa
 
 tarefas.splice(3, 1);
 tarefas.splice(3, 0, "Fazer as marmitas da semana");
@@ -89,3 +89,7 @@ let tarefasOrdenadas = tarefas.sort();
 console.log("Tarefas em ordem alfetica:", tarefasOrdenadas);
 
 
+//invertendo a lista
+
+let tarefasInvertidas = tarefas.reverse()
+console.log(tarefasInvertidas);
