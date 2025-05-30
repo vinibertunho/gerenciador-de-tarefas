@@ -66,12 +66,26 @@ let tarefas2 = [
   "Ir para o muay thai",
   "Ir para o jiujitsu",
   "Dar banho nos cachorros",
-  "Dar comida para os cachorros"
+  "Dar comida para os cachorros",
 ];
 
 //adicionando uma palavra no array
-console.log(`Tarefas combinada: ${tarefas.concat(tarefas2).join(', ')}`);
+console.log(`Tarefas combinada: ${tarefas.concat(tarefas2).join(", ")}`);
 
-let tarefasComPrefixo = tarefas.map(tarefa => `Fazer: ${tarefa}`);
+let tarefasComPrefixo = tarefas.map((tarefa) => `Fazer: ${tarefa}`);
 
 console.log(tarefasComPrefixo);
+
+//filtrando o array
+
+let tarefasFiltradas = tarefas.filter((tarefa) => tarefa.length > 15);
+
+console.log(tarefasFiltradas);
+
+//ordenando o array em ordem alfabetica
+
+let tarefasOrdenadas = tarefas.sort();
+
+console.log("Tarefas em ordem alfetica:", tarefasOrdenadas);
+
+
