@@ -27,6 +27,6 @@ console.log(tarefas);
 
 console.table(tarefas);
 
-
-
-//
+//adicionando uma tarefa no inicio
+tarefas.unshift("Ir correr");
+console.table(tarefas);
