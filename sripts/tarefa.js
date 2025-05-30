@@ -38,3 +38,6 @@ if (tarefas.includes("Ir à academia")) {
   console.log ('existe a tarefa Ir à academia')
 }
 
+// tranformando em string
+
+console.log(`Tarefas como string: ${tarefas.join('😶‍🌫️ ')}`);
