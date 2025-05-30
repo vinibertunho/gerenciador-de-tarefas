@@ -30,3 +30,11 @@ console.table(tarefas);
 //adicionando uma tarefa no inicio
 tarefas.unshift("Ir correr");
 console.table(tarefas);
+
+
+// verificando se tem a tarefa na lista
+
+if (tarefas.includes("Ir à academia")) {
+  console.log ('existe a tarefa Ir à academia')
+}
+
