@@ -40,4 +40,4 @@ if (tarefas.includes("Ir à academia")) {
 
 // tranformando em string
 
-console.log(`Tarefas como string: ${tarefas.join('😶‍🌫️ ')}`);
+console.log(`Tarefas como string: ${tarefas.join(', ')}`);
