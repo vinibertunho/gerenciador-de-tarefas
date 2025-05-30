@@ -10,6 +10,7 @@ let tarefas = [
   "Estudar para concurso",
   "Organizar o computador",
 ];
+// adicionando novas tarefas
 console.log(tarefas);
 
 tarefas.push("Estudar Ingles", "Comer Fruta");
@@ -17,3 +18,15 @@ tarefas.push("Estudar Ingles", "Comer Fruta");
 console.log(tarefas);
 
 console.table(tarefas);
+
+//removendo a ultima tarefa da lista
+
+let TarefaRemovida = tarefas.pop();
+
+console.log(tarefas);
+
+console.table(tarefas);
+
+
+
+//
